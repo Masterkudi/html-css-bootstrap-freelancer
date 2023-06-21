@@ -1,0 +1,10 @@
+
+.row, .col {
+    border: 1px dashed red;
+}
+
+.col-4 {
+    max-width: 50%;
+    max-height: 300px;
+    background-color: aquamarine;
+}
