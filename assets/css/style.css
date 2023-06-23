@@ -27,23 +27,31 @@
     padding: 1rem;
     border-radius: 30px;
 }
+.container.second.text-center .col-4 {
+    padding-top: 3rem;
+    text-align: center;
+}
+
+.container-fluid.first .row.justify-content-center {
+    padding: 1rem 8rem;
+}
 .container-fluid.third {
     padding: 1rem;
     background-color: #19BC9C;
     color: #ffffff;
     max-height: 500px;
 }
+.container-fluid.third.text-center.button {
+    margin: 1rem;
+    text-align: center;
+}
 
 .container-fluid.fifth.justify-content-center {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
     background-color: #3A546D;
     color: #ffffff;
-}
-
-
-.row > .col-4 {
-    padding: 0;
+    min-height: 12rem;
 }
 
 .col-8.text-start {
@@ -52,11 +60,22 @@
     padding: 1rem 0rem;
 }
 
+.btn-custom {
+    margin: 2rem;
+    background-color: #19BC9C;
+    color: #ffffff;
+}
+
+.btn-outline-light {
+    display: flex;
+    justify-content: center;
+}
+
 .container-fluid.footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100px;
+    height: 6rem;
     background-color: #2C3E50;
     color: #ffffff;
 }
