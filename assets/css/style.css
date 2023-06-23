@@ -7,7 +7,11 @@
 .bg-custom-tertiary {
     background-color: #2C3E50;
 }
-
+#navbarNavCustom {
+    display: flex;
+    justify-content: flex-end;
+    display: none;
+}
 .container.header h4 {
     margin-bottom: 0;
 }
@@ -33,7 +37,7 @@
 }
 
 .container-fluid.first .row.justify-content-center {
-    padding: 1rem 8rem;
+    padding: 1rem 3rem;
 }
 .container-fluid.third {
     padding: 1rem;
@@ -41,23 +45,29 @@
     color: #ffffff;
     max-height: 500px;
 }
+
+.col-lg-3.col-md-6.col-sm-8.text-start {
+    padding: 1rem;
+}
+.col-1.text-center.button {
+    align-self: center;
+}
 .container-fluid.third.text-center.button {
     margin: 1rem;
-    text-align: center;
-}
-
-.container-fluid.fifth.justify-content-center {
-    display: flex;
-    align-items: center;
-    background-color: #3A546D;
-    color: #ffffff;
-    min-height: 12rem;
 }
 
 .col-8.text-start {
     border-bottom: 1px solid black;
     margin: 1rem;
     padding: 1rem 0rem;
+}
+
+.container-fluid.fifth.text-center {
+    display: flex;
+    align-items: center;
+    background-color: #3A546D;
+    color: #ffffff;
+    min-height: 15rem;
 }
 
 .btn-custom {
@@ -71,7 +81,7 @@
     justify-content: center;
 }
 
-.container-fluid.footer {
+.container-fluid.footer.text-center {
     display: flex;
     align-items: center;
     justify-content: center;
